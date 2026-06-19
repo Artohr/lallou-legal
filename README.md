@@ -1,2 +1,5 @@
-# baby-dictionary-legal
-Legal page dor Baby Dictionary app
+# lallou-legal
+
+Legal pages for Lallou app.
+
+> Note : ancien nom du repo `baby-dictionary-legal`, renommage à venir.

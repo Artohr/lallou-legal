@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de confidentialité - Baby Dictionary</title>
+    <title>Politique de confidentialité - Lallou</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.8;
@@ -18,7 +18,7 @@
             background: #f5f5f5;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -27,54 +27,54 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             overflow: hidden;
         }
-        
+
         header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 40px 30px;
         }
-        
+
         header h1 {
             font-size: 2em;
             margin-bottom: 5px;
         }
-        
+
         .date {
             opacity: 0.9;
             font-size: 0.9em;
         }
-        
+
         .content {
             padding: 40px 30px;
         }
-        
+
         h2 {
             color: #667eea;
             margin-top: 30px;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
-        
+
         h3 {
             color: #764ba2;
             margin-top: 20px;
             margin-bottom: 10px;
             font-size: 1.2em;
         }
-        
+
         p {
             margin-bottom: 15px;
         }
-        
+
         ul {
             margin-left: 25px;
             margin-bottom: 15px;
         }
-        
+
         li {
             margin-bottom: 8px;
         }
-        
+
         .highlight {
             background: #fff3cd;
             padding: 20px;
@@ -82,7 +82,26 @@
             border-left: 4px solid #ffc107;
             margin: 20px 0;
         }
-        
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f3f4f6;
+            color: #4b5563;
+            font-weight: 600;
+        }
+
         .back-link {
             display: inline-block;
             margin-top: 30px;
@@ -90,11 +109,11 @@
             text-decoration: none;
             font-weight: 600;
         }
-        
+
         .back-link:hover {
             text-decoration: underline;
         }
-        
+
         footer {
             text-align: center;
             padding: 20px;
@@ -102,12 +121,12 @@
             font-size: 0.9em;
             border-top: 1px solid #eee;
         }
-        
+
         @media (max-width: 600px) {
             .content {
                 padding: 30px 20px;
             }
-            
+
             header h1 {
                 font-size: 1.5em;
             }
@@ -118,20 +137,20 @@
     <div class="container">
         <header>
             <h1>🔒 Politique de confidentialité</h1>
-            <p class="date">Dernière mise à jour : 9 janvier 2025</p>
+            <p class="date">Dernière mise à jour : 19 juin 2026</p>
         </header>
-        
+
         <div class="content">
             <div class="highlight">
-                <strong>En bref :</strong> Baby Dictionary respecte votre vie privée. Toutes vos données (enregistrements audio, informations sur vos enfants) sont stockées uniquement sur votre appareil. Nous ne collectons, ne transmettons ni ne vendons aucune donnée personnelle.
+                <strong>En bref :</strong> Lallou nécessite un compte (email, Google ou Apple) et stocke vos enregistrements de manière chiffrée sur les serveurs Firebase (Google Cloud) situés en <strong>Europe</strong>. Vos données ne sont jamais vendues, partagées avec des tiers à des fins publicitaires, ni utilisées pour vous profiler. Vous pouvez supprimer entièrement votre compte et toutes vos données depuis l'Application en un clic.
             </div>
 
             <h2>1. Introduction</h2>
             <p>
-                La présente politique de confidentialité décrit comment Baby Dictionary (ci-après "l'Application", "nous", "notre") traite les informations lorsque vous utilisez notre application mobile.
+                La présente politique de confidentialité décrit comment Lallou (ci-après "l'Application", "nous", "notre") collecte, utilise et protège les informations personnelles lorsque vous utilisez notre application mobile.
             </p>
             <p>
-                Nous nous engageons à protéger votre vie privée et celle de vos enfants. Cette politique explique quelles données nous collectons (ou plutôt, ne collectons pas), comment elles sont utilisées, et vos droits concernant vos informations personnelles.
+                Nous nous engageons à protéger votre vie privée et celle de vos enfants. Cette politique explique quelles données nous collectons, comment elles sont utilisées et stockées, qui sont nos sous-traitants techniques, et quels sont vos droits conformément au Règlement Général sur la Protection des Données (RGPD).
             </p>
 
             <h2>2. Responsable du traitement</h2>
@@ -140,143 +159,209 @@
                 <strong>SIRET :</strong> 942 026 295 00017<br>
                 <strong>Code APE :</strong> 7410Z - Activités spécialisées de design<br>
                 <strong>Activité :</strong> Design d'interfaces et développement d'applications<br>
-                <strong>Email :</strong> contact@leiofficial.com<br>
+                <strong>Email / contact RGPD :</strong> contact@leiofficial.com<br>
                 <strong>Adresse :</strong> 216 RUE Joseph Viollet, 69400 Gleizé, France
             </p>
 
-            <h2>3. Données collectées et stockage</h2>
-            
-            <h3>3.1 Données stockées localement sur votre appareil</h3>
-            <p>L'Application stocke les informations suivantes <strong>uniquement sur votre appareil</strong> :</p>
-            <ul>
-                <li><strong>Informations sur les enfants :</strong> Prénom, date de naissance, photo de profil (optionnelle)</li>
-                <li><strong>Enregistrements audio :</strong> Les enregistrements vocaux des premiers mots de vos enfants</li>
-                <li><strong>Métadonnées des mots :</strong> Texte du mot, catégorie, notes personnelles, date d'enregistrement</li>
-                <li><strong>Préférences utilisateur :</strong> Thème de l'application, paramètres</li>
-                <li><strong>Statut de l'abonnement :</strong> Information indiquant si vous avez souscrit à la version Premium</li>
-            </ul>
+            <h2>3. Architecture de l'Application (cloud-first)</h2>
             <p>
-                <strong>Important :</strong> Ces données ne quittent JAMAIS votre appareil. Elles sont stockées dans l'espace de stockage privé de l'application et ne sont accessibles par aucun tiers, y compris nous-mêmes.
+                Lallou est une application <strong>cloud-first</strong> : un compte utilisateur est obligatoire et toutes les données (enregistrements audio, informations enfants, mots) sont synchronisées sur les serveurs Firebase de Google Cloud Platform afin de garantir :
             </p>
-
-            <h3>3.2 Données que nous ne collectons PAS</h3>
-            <p>Nous ne collectons, ne transmettons et ne stockons sur aucun serveur :</p>
             <ul>
-                <li>Vos enregistrements audio</li>
-                <li>Les informations sur vos enfants</li>
-                <li>Vos données personnelles (nom, email, adresse)</li>
-                <li>Votre localisation</li>
+                <li>Une sauvegarde automatique (aucune perte en cas de désinstallation ou de changement d'appareil)</li>
+                <li>Une utilisation multi-appareils (vos données vous suivent sur tous vos téléphones)</li>
+                <li>L'absence de mode hors-ligne pour la sauvegarde : une connexion internet est nécessaire pour enregistrer un nouveau mot</li>
+            </ul>
+
+            <h2>4. Données collectées</h2>
+
+            <h3>4.1 Données fournies par vous</h3>
+            <ul>
+                <li><strong>Compte utilisateur :</strong> adresse email, mot de passe haché (Firebase Authentication) ou identifiant SSO Google / Apple</li>
+                <li><strong>Prénom (facultatif)</strong> renseigné lors de l'inscription</li>
+                <li><strong>Informations sur les enfants :</strong> prénom, date de naissance, photo de profil (facultative)</li>
+                <li><strong>Enregistrements audio :</strong> fichiers .m4a des premiers mots de vos enfants (10 secondes max chacun)</li>
+                <li><strong>Métadonnées des mots :</strong> texte du mot, catégorie, note personnelle, dates d'enregistrement, âge de l'enfant</li>
+                <li><strong>Préférences utilisateur :</strong> thème choisi, paramètres de notifications</li>
+            </ul>
+
+            <h3>4.2 Données collectées automatiquement</h3>
+            <ul>
+                <li><strong>Identifiant utilisateur (UID) Firebase</strong> généré à la création du compte</li>
+                <li><strong>Token de notification push (FCM) :</strong> identifiant technique permettant l'envoi futur de notifications (utilisé pour le partage familial à venir en V2). Le token est régénéré régulièrement par Google et stocké de manière chiffrée dans Firestore.</li>
+                <li><strong>Statut d'abonnement Premium</strong> (transmis par RevenueCat après un achat)</li>
+                <li><strong>Données techniques anonymisées (Firebase Analytics) :</strong> événements d'usage (ajout d'un mot, ouverture du paywall, etc.), type d'appareil, version du système d'exploitation, langue, pays approximatif (au niveau pays). Aucune donnée personnellement identifiable n'est envoyée à Analytics.</li>
+                <li><strong>Rapports de crash (Firebase Crashlytics) :</strong> trace technique d'erreur, modèle d'appareil et version OS. Ces rapports ne contiennent ni le contenu de vos enregistrements ni les informations de vos enfants.</li>
+            </ul>
+
+            <h3>4.3 Données que nous ne collectons pas</h3>
+            <ul>
+                <li>Votre localisation précise (GPS)</li>
                 <li>Vos contacts</li>
+                <li>Vos données de paiement (gérées exclusivement par Apple / Google / RevenueCat)</li>
+                <li>Vos identifiants publicitaires (IDFA / AAID) — l'Application ne contient aucune publicité ni traceur tiers à des fins marketing</li>
             </ul>
 
-            <h3>3.3 Analytics anonymes (optionnel)</h3>
+            <h2>5. Sous-traitants techniques</h2>
             <p>
-                Nous utilisons Firebase Analytics pour comprendre comment l'Application est utilisée et améliorer l'expérience utilisateur. Les données collectées sont <strong>anonymes</strong> et incluent :
+                Pour faire fonctionner l'Application, nous utilisons les sous-traitants suivants, qui agissent en tant que <em>data processors</em> au sens du RGPD :
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sous-traitant</th>
+                        <th>Service utilisé</th>
+                        <th>Localisation des données</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google Ireland Ltd<br><small>(Firebase / Google Cloud)</small></td>
+                        <td>Authentification, base de données (Firestore), stockage de fichiers (Storage), messagerie push (FCM), analytics, rapports de crash, protection anti-abus (App Check)</td>
+                        <td>Firestore : multirégional <strong>EUR3 (Europe)</strong><br>Storage : multirégional <strong>EU (Europe)</strong></td>
+                    </tr>
+                    <tr>
+                        <td>RevenueCat, Inc.</td>
+                        <td>Gestion des achats intégrés (entitlement Premium)</td>
+                        <td>États-Unis (transfert encadré par des clauses contractuelles types — SCC)</td>
+                    </tr>
+                    <tr>
+                        <td>Apple Inc. / Google LLC</td>
+                        <td>Distribution de l'Application via App Store / Google Play, traitement des paiements</td>
+                        <td>Conformément à leurs politiques respectives</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                Un Data Processing Agreement (DPA) est signé avec Google Ireland Ltd (via les conditions Firebase) et avec RevenueCat.
+            </p>
+
+            <h2>6. Finalités du traitement et bases légales</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Finalité</th>
+                        <th>Base légale RGPD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Création et gestion du compte utilisateur</td>
+                        <td>Exécution du contrat (art. 6.1.b)</td>
+                    </tr>
+                    <tr>
+                        <td>Stockage et synchronisation des enregistrements et données enfants</td>
+                        <td>Exécution du contrat (art. 6.1.b)</td>
+                    </tr>
+                    <tr>
+                        <td>Envoi de notifications push (V2 partage familial)</td>
+                        <td>Consentement (art. 6.1.a) — désactivable</td>
+                    </tr>
+                    <tr>
+                        <td>Statistiques d'usage anonymisées (Analytics)</td>
+                        <td>Intérêt légitime (art. 6.1.f) — opt-out possible</td>
+                    </tr>
+                    <tr>
+                        <td>Détection de crash (Crashlytics)</td>
+                        <td>Intérêt légitime (art. 6.1.f)</td>
+                    </tr>
+                    <tr>
+                        <td>Gestion des achats Premium</td>
+                        <td>Exécution du contrat (art. 6.1.b)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>7. Durée de conservation</h2>
+            <ul>
+                <li><strong>Compte et données associées :</strong> conservées tant que votre compte est actif</li>
+                <li><strong>Suppression de compte :</strong> immédiate et définitive (cascade Firebase Auth + Firestore + Storage) depuis l'écran Paramètres → "Supprimer mon compte"</li>
+                <li><strong>Corbeille des mots :</strong> 30 jours maximum, suppression automatique au-delà</li>
+                <li><strong>Logs Crashlytics :</strong> 90 jours (politique par défaut Firebase)</li>
+                <li><strong>Analytics agrégés et anonymisés :</strong> 14 mois (politique par défaut Firebase)</li>
+            </ul>
+
+            <h2>8. Sécurité</h2>
+            <ul>
+                <li><strong>Chiffrement en transit :</strong> toutes les communications avec Firebase utilisent TLS 1.2+</li>
+                <li><strong>Chiffrement au repos :</strong> stockage chiffré sur les serveurs Google Cloud (AES-256)</li>
+                <li><strong>Règles d'accès strictes :</strong> les règles Firestore et Storage garantissent qu'un utilisateur ne peut accéder qu'à ses propres données (<code>request.auth.uid == userId</code>)</li>
+                <li><strong>Protection anti-abus :</strong> Firebase App Check (Play Integrity sur Android, App Attest sur iOS) bloque les requêtes provenant d'applications non authentiques</li>
+                <li><strong>Authentification :</strong> mots de passe hachés par Firebase Auth (scrypt), support SSO Google et Apple, email de vérification au signup</li>
+            </ul>
+
+            <h2>9. Paiements et abonnements</h2>
+            <p>
+                La version Premium (12,99€, paiement unique) est traitée par les plateformes Apple App Store ou Google Play Store, avec validation des reçus via RevenueCat. Nous ne collectons ni ne stockons vos informations bancaires : seul l'identifiant anonyme de la transaction et le statut d'entitlement <code>premium</code> sont transmis.
+            </p>
+
+            <h2>10. Vos droits (RGPD)</h2>
+            <p>
+                Conformément au Règlement Général sur la Protection des Données, vous disposez des droits suivants :
             </p>
             <ul>
-                <li>Nombre de mots enregistrés (sans le contenu)</li>
-                <li>Fonctionnalités utilisées (écrans visités)</li>
-                <li>Type d'appareil et version du système d'exploitation</li>
-                <li>Événements d'erreur (crashs)</li>
+                <li><strong>Droit d'accès :</strong> vous pouvez consulter toutes vos données depuis l'Application à tout moment</li>
+                <li><strong>Droit de rectification :</strong> vous pouvez modifier le prénom de votre profil, les informations enfants et les mots directement depuis l'Application</li>
+                <li><strong>Droit à l'effacement (« droit à l'oubli ») :</strong> Paramètres → "Supprimer mon compte" déclenche la suppression immédiate et définitive de votre compte Firebase, de l'intégralité de vos documents Firestore et de tous vos fichiers audio dans Firebase Storage</li>
+                <li><strong>Droit à la portabilité :</strong> vous pouvez demander l'export de vos données dans un format structuré (JSON + fichiers audio) par email à contact@leiofficial.com</li>
+                <li><strong>Droit d'opposition :</strong> vous pouvez désactiver Firebase Analytics et les notifications dans les paramètres de l'Application</li>
+                <li><strong>Droit de limitation</strong> du traitement</li>
+                <li><strong>Droit d'introduire une réclamation</strong> auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>) si vous estimez que vos droits ne sont pas respectés</li>
             </ul>
             <p>
-                <strong>Ces données sont anonymisées et ne permettent pas de vous identifier personnellement.</strong>
-            </p>
-            <p>
-                Vous pouvez désactiver les analytics dans les paramètres de l'Application.
+                Pour exercer ces droits, contactez-nous à : <strong>contact@leiofficial.com</strong> (réponse sous 1 mois maximum).
             </p>
 
-            <h2>4. Utilisation des données</h2>
-            <p>Les données stockées sur votre appareil sont utilisées exclusivement pour :</p>
-            <ul>
-                <li>Afficher vos enregistrements et les informations de vos enfants</li>
-                <li>Permettre la lecture des enregistrements audio</li>
-                <li>Sauvegarder vos préférences d'utilisation</li>
-            </ul>
+            <h2>11. Protection des mineurs</h2>
             <p>
-                Aucune donnée n'est partagée avec des tiers, vendue, ou utilisée à des fins publicitaires.
-            </p>
-
-            <h2>5. Paiements et abonnements</h2>
-            <p>
-                Les paiements pour la version Premium sont gérés par les plateformes Apple App Store et Google Play Store. Nous ne collectons ni ne stockons vos informations de paiement (carte bancaire, etc.).
+                L'Application est destinée aux <strong>parents et adultes responsables</strong>, pas aux enfants directement. Les enregistrements et données enfants (prénom, date de naissance, voix) sont fournis et contrôlés exclusivement par le parent utilisateur, qui agit en tant que représentant légal.
             </p>
             <p>
-                Seule une confirmation d'achat est enregistrée localement sur votre appareil pour débloquer les fonctionnalités Premium.
-            </p>
-
-            <h2>6. Partage des données</h2>
-            <p>
-                Nous ne partageons vos données avec aucun tiers. Les seules exceptions sont :
+                Conformément aux règles COPPA et RGPD-K :
             </p>
             <ul>
-                <li><strong>Apple et Google :</strong> Pour la gestion des achats intégrés (conformément à leurs politiques de confidentialité respectives)</li>
-                <li><strong>Firebase Analytics :</strong> Pour les statistiques anonymisées (si vous n'avez pas désactivé cette option)</li>
+                <li>Aucune donnée n'est collectée directement auprès des enfants</li>
+                <li>Aucun profilage publicitaire des enfants n'est effectué</li>
+                <li>Aucune publicité n'est diffusée dans l'Application</li>
+                <li>Aucun traceur tiers à but marketing n'est intégré</li>
+                <li>La suppression du compte parent entraîne la suppression complète des données concernant les enfants</li>
             </ul>
 
-            <h2>7. Sécurité des données</h2>
+            <h2>12. Transferts hors UE</h2>
             <p>
-                Vos données sont protégées par :
-            </p>
-            <ul>
-                <li><strong>Stockage local sécurisé :</strong> Les données sont dans l'espace privé de l'Application, inaccessible aux autres applications</li>
-                <li><strong>Pas de transmission réseau :</strong> Aucune donnée personnelle n'est envoyée sur Internet</li>
-                <li><strong>Chiffrement du système :</strong> Si votre appareil est chiffré (iOS et Android modernes), vos données le sont aussi</li>
-            </ul>
-            <p>
-                <strong>Note importante :</strong> Si vous désinstallez l'Application, toutes vos données locales seront définitivement supprimées. Nous vous recommandons d'utiliser la fonction d'export pour sauvegarder vos enregistrements avant désinstallation.
+                Vos données principales (compte, enfants, audios) sont stockées en <strong>Europe</strong> (Firestore EUR3, Storage EU). Les transferts ponctuels vers les États-Unis (RevenueCat, support Google) sont encadrés par les <strong>Clauses Contractuelles Types (SCC)</strong> de la Commission européenne.
             </p>
 
-            <h2>8. Vos droits (RGPD)</h2>
+            <h2>13. Cookies et traceurs</h2>
             <p>
-                Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :
-            </p>
-            <ul>
-                <li><strong>Droit d'accès :</strong> Vos données sont sur votre appareil, vous y avez accès à tout moment via l'Application</li>
-                <li><strong>Droit de rectification :</strong> Vous pouvez modifier vos données directement dans l'Application</li>
-                <li><strong>Droit à l'effacement :</strong> Vous pouvez supprimer vos données à tout moment via les paramètres de l'Application ou en désinstallant l'Application</li>
-                <li><strong>Droit à la portabilité :</strong> Vous pouvez exporter vos données via la fonction d'export (disponible en version Premium)</li>
-                <li><strong>Droit d'opposition :</strong> Vous pouvez désactiver Firebase Analytics dans les paramètres</li>
-            </ul>
-            <p>
-                Pour toute question concernant vos droits, contactez-nous à : <strong>contact@leiofficial.com</strong>
+                L'Application mobile n'utilise pas de cookies. Aucun SDK publicitaire ni tracker tiers (Facebook, TikTok, etc.) n'est intégré.
             </p>
 
-            <h2>9. Données des mineurs</h2>
+            <h2>14. Modifications de cette politique</h2>
             <p>
-                L'Application est destinée aux parents et aux adultes responsables d'enfants. Les enregistrements et informations concernent des mineurs, mais sont gérés exclusivement par les parents.
-            </p>
-            <p>
-                Conformément à la loi, nous ne collectons aucune donnée sur des mineurs de manière directe. Toutes les données sont stockées localement et contrôlées par le parent utilisateur.
+                Nous pouvons mettre à jour cette politique de confidentialité (notamment en cas d'évolution technique ou de nouveau sous-traitant). En cas de modification substantielle, nous vous en informerons via une notification dans l'Application et/ou par email. La date de dernière mise à jour est indiquée en haut de ce document.
             </p>
 
-            <h2>10. Modifications de cette politique</h2>
+            <h2>15. Contact</h2>
             <p>
-                Nous pouvons mettre à jour cette politique de confidentialité occasionnellement. En cas de modification importante, nous vous en informerons via une notification dans l'Application.
-            </p>
-            <p>
-                La date de dernière mise à jour est indiquée en haut de ce document.
-            </p>
-
-            <h2>11. Contact</h2>
-            <p>
-                Pour toute question concernant cette politique de confidentialité ou vos données, vous pouvez nous contacter :
+                Pour toute question concernant cette politique de confidentialité ou vos données personnelles :
             </p>
             <ul>
                 <li><strong>Email :</strong> contact@leiofficial.com</li>
+                <li><strong>Adresse postale :</strong> BRAHMI Anissa, 216 RUE Joseph Viollet, 69400 Gleizé, France</li>
                 <li><strong>Site web :</strong> <a href="index.html">Page d'accueil</a></li>
             </ul>
 
-            <h2>12. Législation applicable</h2>
+            <h2>16. Législation applicable</h2>
             <p>
-                Cette politique de confidentialité est soumise au droit français et au RGPD (Règlement Général sur la Protection des Données de l'Union Européenne).
+                Cette politique de confidentialité est soumise au droit français et au Règlement (UE) 2016/679 (RGPD).
             </p>
 
             <a href="index.html" class="back-link">← Retour à l'accueil</a>
         </div>
-        
+
         <footer>
-            <p>Baby Dictionary © 2025 - Tous droits réservés</p>
+            <p>Lallou © 2026 - Tous droits réservés</p>
             <p>BRAHMI Anissa - SIRET : 942 026 295 00017</p>
         </footer>
     </div>
