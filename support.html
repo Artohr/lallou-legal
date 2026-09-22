@@ -4,165 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support - Lallou</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.8;
-            color: #333;
-            background: #f5f5f5;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            opacity: 0.9;
-        }
-
-        .content {
-            padding: 40px 30px;
-        }
-
-        .contact-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 12px;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .contact-box h2 {
-            color: white;
-            margin-bottom: 15px;
-        }
-
-        .contact-box a {
-            color: white;
-            font-size: 1.2em;
-            font-weight: 600;
-            text-decoration: none;
-            display: inline-block;
-            padding: 12px 24px;
-            background: rgba(255,255,255,0.2);
-            border-radius: 8px;
-            margin-top: 10px;
-            transition: background 0.3s ease;
-        }
-
-        .contact-box a:hover {
-            background: rgba(255,255,255,0.3);
-        }
-
-        h2 {
-            color: #667eea;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-        }
-
-        .faq-item {
-            margin-bottom: 25px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
-        }
-
-        .faq-question {
-            font-weight: 600;
-            color: #667eea;
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-
-        .faq-answer {
-            color: #555;
-        }
-
-        .store-links {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            margin-top: 30px;
-        }
-
-        .store-link {
-            display: block;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            text-align: center;
-            text-decoration: none;
-            color: #333;
-            font-weight: 600;
-            transition: transform 0.2s ease;
-        }
-
-        .store-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-top: 30px;
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .back-link:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #999;
-            font-size: 0.9em;
-            border-top: 1px solid #eee;
-        }
-
-        @media (max-width: 600px) {
-            .content {
-                padding: 30px 20px;
-            }
-
-            header h1 {
-                font-size: 1.5em;
-            }
-
-            .store-links {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -175,8 +17,8 @@
             <div class="contact-box">
                 <h2>Contactez-nous</h2>
                 <p>Une question ? Un problème ? Une suggestion ?</p>
-                <a href="mailto:contact@leiofficial.com">contact@leiofficial.com</a>
-                <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.9;">
+                <a href="mailto:lallou.app@gmail.com">lallou.app@gmail.com</a>
+                <p class="contact-note">
                     Nous répondons généralement sous 48h
                 </p>
             </div>
@@ -185,11 +27,11 @@
             <div class="store-links">
                 <a href="#" class="store-link">
                     🍎 App Store<br>
-                    <small style="opacity: 0.7;">Bientôt disponible</small>
+                    <small>Bientôt disponible</small>
                 </a>
                 <a href="#" class="store-link">
                     🤖 Google Play<br>
-                    <small style="opacity: 0.7;">Bientôt disponible</small>
+                    <small>Bientôt disponible</small>
                 </a>
             </div>
 
@@ -306,9 +148,9 @@
 
             <h2>🐛 Signaler un bug</h2>
             <p>
-                Vous avez rencontré un problème technique ? Envoyez-nous un email à <strong>contact@leiofficial.com</strong> en précisant :
+                Vous avez rencontré un problème technique ? Envoyez-nous un email à <strong>lallou.app@gmail.com</strong> en précisant :
             </p>
-            <ul style="margin-left: 25px; margin-top: 10px;">
+            <ul>
                 <li>Le modèle de votre appareil (ex : iPhone 15, Samsung Galaxy S24)</li>
                 <li>La version de votre système (ex : iOS 18, Android 15)</li>
                 <li>La méthode d'authentification utilisée (email, Google, Apple)</li>
@@ -318,13 +160,14 @@
 
             <h2>💡 Suggérer une fonctionnalité</h2>
             <p>
-                Vous avez une idée pour améliorer Lallou ? Nous serions ravis de l'entendre ! Envoyez-nous vos suggestions à <strong>contact@leiofficial.com</strong>.
+                Vous avez une idée pour améliorer Lallou ? Nous serions ravis de l'entendre ! Envoyez-nous vos suggestions à <strong>lallou.app@gmail.com</strong>.
             </p>
 
             <h2>📄 Informations légales</h2>
-            <ul style="margin-left: 25px; margin-top: 10px;">
-                <li><a href="privacy-policy.html" style="color: #667eea;">Politique de confidentialité</a></li>
-                <li><a href="terms-of-service.html" style="color: #667eea;">Conditions d'utilisation</a></li>
+            <ul>
+                <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
+                <li><a href="terms-of-service.html">Conditions d'utilisation</a></li>
+                <li><a href="suppression-compte.html">Suppression de compte</a></li>
             </ul>
 
             <a href="index.html" class="back-link">← Retour à l'accueil</a>
@@ -333,7 +176,7 @@
         <footer>
             <p>Lallou © 2026 - Tous droits réservés</p>
             <p>BRAHMI Anissa - SIRET : 942 026 295 00017</p>
-            <p style="margin-top: 5px;">Version 1.0</p>
+            <p class="version">Version 1.0</p>
         </footer>
     </div>
 </body>
